@@ -1,0 +1,17 @@
+@supports not -moz-bool-pref("userChrome.ProtonTabs-Enabled")
+{
+    /* ---------- Tabs ---------- */
+
+    .tab-background
+    {
+        margin-block: 8px 0 !important;
+        border-radius: 0 !important;
+    }
+
+    /* ---------- URL input ---------- */
+
+    #urlbar-input-container {
+        ----urlbar-container-padding: 2px;
+        padding: var(--urlbar-container-padding) calc(var(----urlbar-container-padding) * 2);
+    }
+}
