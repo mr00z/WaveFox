@@ -1062,7 +1062,7 @@ spacer[part="overflow-end-indicator"]
 
     .tab-background
     {
-        margin-block: 0 !important;
+        margin-block: 8px 0 !important;
         border-radius: 0 !important;
     }
 
