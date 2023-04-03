@@ -565,9 +565,9 @@ spacer[part="overflow-end-indicator"]
 
 .tab-close-button
 {
-    width: 16px !important;
-    height: 16px !important;
-    padding: 3px !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 4px !important;
     margin: 0px !important;
 }
 
@@ -1209,7 +1209,7 @@ spacer[part="overflow-end-indicator"]
     .tabbrowser-tab:not([hidden]):has(+ .tabbrowser-tab[hidden]:last-of-type),
     .tabbrowser-tab:not([hidden]):has(+ .tabbrowser-tab[hidden] ~ .tabbrowser-tab[hidden]:last-of-type)
     {
-        margin-right: calc(var(--tab-min-height) / 2) !important;
+        margin-right: calc(var(--tab-min-height) / 6) !important;
     }
 
     /* ---------- Tab Scroll Animation ---------- */

@@ -1,7 +1,15 @@
-@supports not -moz-bool-pref("userChrome.ProtonTabs-Enabled")
-{
+@supports not -moz-bool-pref("userChrome.ProtonTabs-Enabled") {
     #urlbar-input-container {
         --urlbar-container-padding: 2px;
-        padding: var(--urlbar-container-padding) calc(var(--urlbar-container-padding) * 2) !important;
+    }
+
+    .urlbar-page-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tabs-newtab-button {
+        padding-block-start: 2px !important;
     }
 }
