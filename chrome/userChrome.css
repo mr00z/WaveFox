@@ -1048,11 +1048,11 @@ spacer[part="overflow-end-indicator"]
 
     /* ---------- Tab Icon Indicator ---------- */
 
-    .tabbrowser-tab:is([image], [pinned]) .tab-content[attention]:not([selected]),
+    /* .tabbrowser-tab:is([image], [pinned]) .tab-content[attention]:not([selected]),
     .tab-content[pinned][titlechanged]:not([selected])
     {
         background-position: center var(--tab-block-margin) !important;
-    }
+    } */
 
     /* ---------- Tabs ---------- */
 
